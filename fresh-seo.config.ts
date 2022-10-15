@@ -1,4 +1,4 @@
-import { Config } from "./fresh-seo/mod.ts";
+import { Config } from "./seo/mod.ts";
 export default {
   routes: {
     "/": {

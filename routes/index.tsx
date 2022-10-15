@@ -3,8 +3,8 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 import NavBar from "../components/NavBar.tsx";
 import Counter from "../islands/Counter.tsx";
 import seoConfig from "../fresh-seo.config.ts";
-import { MetaProps, getMetaProps } from "../fresh-seo/mod.ts";
-import Meta from "../fresh-seo/components/Meta.tsx";
+import { MetaProps, getMetaProps } from "../seo/mod.ts";
+import Meta from "../seo/components/Meta.tsx";
 interface Props {
   metaProps: MetaProps;
 }

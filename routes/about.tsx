@@ -2,8 +2,8 @@ import { Head } from "$fresh/runtime.ts";
 import NavBar from "../components/NavBar.tsx";
 import Counter from "../islands/Counter.tsx";
 import seoConfig from "../fresh-seo.config.ts";
-import { getMetaProps, MetaProps } from "../fresh-seo/mod.ts";
-import Meta from "../fresh-seo/components/Meta.tsx";
+import { getMetaProps, MetaProps } from "../seo/mod.ts";
+import Meta from "../seo/components/Meta.tsx";
 import { Handlers, PageProps } from "https://deno.land/x/fresh@1.1.2/server.ts";
 interface Props {
   metaProps: MetaProps;
