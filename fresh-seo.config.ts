@@ -1,13 +1,13 @@
-import {Config} from "./plugin/index.ts"
+import { Config } from "./fresh-seo/mod.ts";
 export default {
-    routes:{"/":{
-        title:"index page",  
-        description:"the index page"
+  routes: {
+    "/": {
+      title: "index",
+      description: "index page",
     },
-    "/about":{
-        title:"about page",   
-        description:"the about page"
-    }},
-    selfURL:import.meta.url,
-} as Config
-
+    "/about": {
+      title: "about",
+      description: "about page",
+    },
+  },
+} as Config;

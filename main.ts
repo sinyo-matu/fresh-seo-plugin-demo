@@ -9,7 +9,5 @@ import manifest from "./fresh.gen.ts";
 
 import twindPlugin from "$fresh/plugins/twind.ts";
 import twindConfig from "./twind.config.ts";
-import seoConfig from "./fresh-seo.config.ts"
-import {freshSeoPlugin} from "./plugin/index.ts";
 
-await start(manifest, { plugins: [twindPlugin(twindConfig),freshSeoPlugin(seoConfig)] });
+await start(manifest, { plugins: [twindPlugin(twindConfig)] });
